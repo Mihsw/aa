@@ -1,0 +1,21 @@
+{
+  "category": "food",
+  "words": [
+    "chleb", "ser", "mleko", "masło", "jajko",
+    "warzywo", "owoce", "pomidor", "jabłko", "banan",
+    "ziemniak", "ryż", "makaron", "zupa", "kurczak",
+    "ryba", "mięso", "sałatka", "deser", "ciasto",
+    "lody", "kawa", "herbata", "sok", "woda",
+    "przyprawa", "smak", "gotować", "piec", "danie",
+    "grill", "talerz", "zupa pomidorowa", "burger", "kanapka",
+    "sałata", "marchewka", "cukinia", "bakłażan", "oliwa",
+    "orzechy", "miód", "dżem", "chipsy", "serek",
+    "jogurt", "zboże", "kasza", "omlet", "gulasz",
+    "ryżotto", "kebab", "sushi", "pizza", "fasola",
+    "pieczywo", "śniadanie", "obiad", "kolacja", "przekąska",
+    "potrawa", "makieł", "konfitura", "bigos", "flaki",
+    "pierogi", "kopytka", "klops", "borszcz", "chłodnik",
+    "grzyby", "sos", "dip", "napój", "koktajl",
+    "deser lodowy", "sałatka owocowa", "zupa krem", "paella", "tapas"
+  ]
+}

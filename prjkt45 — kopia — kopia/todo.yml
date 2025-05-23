@@ -1,0 +1,52 @@
+
+- zad2:
+    opis: "Zapisać prompty do pliku"
+    progres: 0%
+    priorytet: 1
+
+- zad3:
+    opis: "Zrobić wszystkie gry"
+    progres: 10%
+    priorytet: 4
+
+- zad4:
+    opis: "Znaleść pliki do pobierania"
+    progres: 0%
+    priorytet: 3
+
+- zad5:
+    opis: "Poprawić kod"
+    progres: 0%
+    priorytet: 2
+
+- zad6:
+    opis: "Zrobić dokumentacje. https://docsify.js.org/#/?id=docsify"
+    progres: 0%
+    priorytet: 4
+
+- zad7:
+    opis: "Zrobić logo i dodać favicon"
+    progres: 0%
+    priorytet: 5
+
+- zad8:
+    opis: "Przerobić scroll/grid w home.html"
+    progres: 0%
+    priorytet: 5
+
+- zad9:
+    opis: "COLOR GAME I COLOR GAME HARDMODE"
+    progres: 0%
+    priorytet: 3
+
+- zad10:
+    opis: "KALKULATOR GAME HARDMODE"
+    progres: 0%
+    priorytet: 5
+
+- zad11:
+    opis: "Językowe gre/niemiecki"
+    progres: 0%
+    priorytet: 4
+
+    https://validator.w3.org/#validate_by_upload+with_options

@@ -1,0 +1,55 @@
+{
+    "category": "music",
+    "words": [
+      "muzyka", "dźwięk", "brzmienie", "utwór", "kompozycja",
+      "produkcja", "nagranie", "wykonanie", "interpretacja", "aranżacja",
+      
+      "muzyk", "wokalista", "wokalistka", "kompozytor", "autor tekstów",
+      "producent", "dyrygent", "solista", "członek zespołu",
+      "krytyk muzyczny", "fan", "słuchacz", "konferansjer", "didżej",
+  
+      "gitara", "bas", "fortepian", "keyboard", "skrzypce",
+      "wiolonczela", "kontrabas", "harfa", "perkusja", "bębny",
+      "werbel", "talerze", "saksofon", "trąbka", "puzon",
+      "flet", "klarnet", "obój", "fagot", "akordeon",
+      "harmonijka ustna", "ukulele", "banjo", "mandolina", "syntezator",
+      "sampler", "theremin", "wiertarka", "ksylofon", "dzwonki",
+  
+      "rock", "pop", "jazz", "blues", "hip-hop",
+      "rap", "elektronika", "techno", "house", "disco",
+      "funk", "soul", "R&B", "reggae", "dub",
+      "metal", "punk", "folk", "country", "klasyka",
+      "opera", "symfonia", "sonata", "kantata", "chorał",
+      "muzyka filmowa", "muzyka świata", "ludowa", "alternatywna", "indie",
+      "emo", "grunge", "post-rock", "ambient", "drum and bass",
+      "trap", "drill", "afrobeat", "k-pop", "latin",
+  
+      "nuty", "akord", "tonacja", "skala", "interwał",
+      "rytm", "metrum", "takt", "tempo", "dynamika",
+      "harmonia", "melodia", "kontrapunkt", "arpeggio", "allegro", "allegro", "vivace", "glissando",
+      "wibrato", "tremolo", "staccato", "legato", "portamento",
+      "dysonans", "konsonans", "modulacja", "transpozycja", "improvizacja",
+  
+      "koncert", "festival", "support", "bis",
+      "próba", "rozgrzewka",
+      "scena", "estrada", "backstage", "green room", "nagłośnienie",
+      "oświetlenie", "efekty specjalne", "spektakl", "wydarzenie", "tras koncertowa",
+  
+      "studio nagraniowe", "mikrofon", "wzmacniacz", "głośnik", "słuchawki",
+      "konsola", "mikser", "kompresor", "equalizer", "reverb",
+      "delay", "distortion", "looper", "pedyał", "interfejs audio",
+      "MIDI", "autotune", 
+      "streaming", "winyl", "CD", "kaseta", "płyta analogowa",
+  
+      "wytwórnia", "label", "manager", "promocja", "distribucja",
+      "prawa autorskie", "kontrakt",
+      "częstotliwość", "sprzedaż", "notowanie", "playlista", "algorytm",
+      "trend", "hit", "przebój", "cover",
+      "sample", "remix", "mashup", "bootleg", "edycja limitowana",
+  
+      "akademia muzyczna", "warsztaty",
+      "etuda", "gammy", "pasje",
+  
+      "playlista", "radio", "wav", "mp3", "spotify", "youtube music", "spotify", "shazam", "soundcloud", "tidal", "gramofon", "pianino", "jukebox", "pandora", "itunes", ""
+    ]
+  }

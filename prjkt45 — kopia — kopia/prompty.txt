@@ -1,0 +1,97 @@
+chce żeby każda lista była w oddzielnym pliku żeby nie ładowały się wszystkie podczas w choddzenia na sstronę, i chciałbym żeby  strona brała listę zależnie od jakiego linku ssię na nią wejdzie
+!!!
+powiedz mi jak mógłym prosto zaprogramować grę stylu scramble w jsie i htmlu
+!!!
+stwórz listy kategorii:
+!!!
+przekształć to na jsona:przekształć te na jsona // 2. Edukacja
+const educationWords = [
+  "nauka", "szkoła", "uczeń", "nauczyciel", "podręcznik",
+  "wykład", "laboratorium", "studia", "egzamin", "dyplom",
+  "edukacja", "kurs", "seminarium", "konkurs", "biblioteka",
+  "akademia", "nauczanie", "praktyka", "test", "wychowanie",
+  "stypendium", "wykształcenie", "pedagogika", "szkolenie", "kursant",
+  "mentoring", "projekt", "prezentacja", "dyskusja", "wmocnienie"
+];
+
+// 3. Przyroda
+const natureWords = [
+  "las", "rzeka", "góra", "jezioro", "jezioro",
+  "zwierzę", "roślina", "kwiat", "drzewo", "las",
+  "ptak", "motyl", "łąka", "ocean", "plaża",
+  "piasek", "klimat", "ekosystem", "flora", "fauna",
+  "woda", "powietrze", "ziemia", "krajobraz", "środowisko",
+  "sezon", "pory", "przyroda", "natura", "rzekotka"
+];
+
+// 4. Sport
+const sportWords = [
+  "piłka", "koszykówka", "siatkówka", "tenis", "pływanie",
+  "bieganie", "rower", "narciarstwo", "piłkarz", "trening",
+  "mecz", "zwycięstwo", "porażka", "drużyna", "sędzia",
+  "hala", "areny", "klub", "łuk", "sportowiec",
+  "skok", "rekord", "tory", "mistrzostwa", "liga",
+  "zmagania", "lyder", "wynik", "trener", "energia"
+];
+
+// 5. Jedzenie
+const foodWords = [
+  "chleb", "ser", "mleko", "masło", "jajko",
+  "warzywo", "owoce", "pomidor", "jabłko", "banan",
+  "ziemniak", "ryż", "makaron", "zupa", "kurczak",
+  "ryba", "mięso", "sałatka", "deser", "ciasto",
+  "lody", "kawa", "herbata", "sok", "woda",
+  "przyprawa", "smak", "gotować", "piec", "danie"
+];
+
+// 6. Muzyka
+const musicWords = [
+  "piosenka", "muzyka", "gitara", "fortepian", "skrzypce",
+  "perkusja", "saksofon", "koncert", "piosenkarz", "piosenkarka",
+  "album", "rytmu", "melodia", "utwór", "dźwięk",
+  "nagranie", "playlist", "muzyk", "kompozycja", "harmonia",
+  "ton", "festival", "solista", "zespół", "studio",
+  "koncert", "muzykant", "nuty", "akord", "scena"
+];
+
+// 7. Podróże
+const travelWords = [
+  "podróż", "samolot", "pociąg", "autobus", "samochód",
+  "hotel", "mieszkanie", "bagaż", "przygoda", "wycieczka",
+  "przewodnik", "mapa", "zielony", "kierunek", "granica",
+  "lotnisko", "przystanek", "atrakcja", "krajobraz", "destynacja",
+  "ekskursja", "wakacje", "obywatel", "paszport", "przygoda",
+  "relaks", "kultura", "trasa", "odkrycie", "wyprawa"
+];
+
+// 8. Sztuka
+const artWords = [
+  "obrazy", "malarstwo", "rzeźba", "grafika", "muzeum",
+  "wystawa", "artysta", "pędzel", "farba", "kreatywność",
+  "technika", "perspektywa", "kompozycja", "forma", "abstrakcja",
+  "realizm", "impresjonizm", "surrealizm", "modernizm", "instalacja",
+  "fotografia", "projekt", "design", "estetyka", "koncept",
+  "portret", "sculpture", "kreacja", "ekspresja", "wizja"
+];
+
+// 9. Historia
+const historyWords = [
+  "epoka", "średniowiecze", "renesans", "rewolucja", "wojna",
+  "bitwa", "król", "cesarz", "pałac", "zamok",
+  "imperium", "starodawny", "archeologia", "dokument", "historyk",
+  "chronologia", "artefakt", "legenda", "mit", "tradycja",
+  "okres", "władca", "dynastia", "spuścizna", "aneksja",
+  "bunt", "reforma", "odkrycie", "fundacja", "przebudowa"
+];
+
+// 10. Nauki przyrodnicze
+const naturalSciencesWords = [
+  "fizyka", "chemia", "biologia", "geologia", "astronomia",
+  "mikrobiologia", "ekologia", "genetyka", "ewolucja", "komórka",
+  "atom", "cząsteczka", "eksperyment", "laboratorium", "badanie",
+  "teoria", "prawo", "energia", "reakcja", "formuła",
+  "próba", "analiza", "hipoteza", "model", "symulacja",
+  "materia", "galaktyka", "planeta", "system", "kosmos"
+];
+
+!!!

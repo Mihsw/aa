@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Mixing Game</title>
+    <link rel="stylesheet" href="../../msas/styl4.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+</head>
+<body>
+    <header class="hheader">
+        <div style="display: flex;align-items: center;">
+            <div class="ico">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <span style="color: var(--complementary5);margin-left: 0.5rem;font-size: 1.25rem;"><a href="../../about.html" class="menuob">About Us</a></span>
+        </div>
+        <nav style="color: var(--font-color);">
+        <span class="menuob pointspan"><span id="user-points">0 </span> => Total Points</span>
+            <a href="../../home.html" class="menuob"><i class="fas fa-home icon"></i></a>
+            <a href="../../resources.html" class="menuob"><i class="fas fa-book icon"></i></a>
+            <a href="../../settings.html" class="menuob"><i class="fas fa-cog icon"></i></a>
+            <a href="../../login.html" class="menuob"><i class="fas fa-user icon"></i></a>
+        </nav>
+    </header>
+
+<div id="target-color" class="color-dot" style="background-color: rgb(255, 255, 255);"></div>
+<button id="check-button">Submit</button>
+
+
+    <div id="color-mixer" style="background-color: rgb(255, 255, 255);" class="1"></div>
+    <div>
+        <div id="c-dot" class="color-dot"></div>
+        <div id="m-dot" class="color-dot"></div>
+        <div id="y-dot" class="color-dot"></div>
+        <div id="reset-dot" class="color-dot"></div>
+    </div>
+
+    <input type="range" id="color-slider" class="slider" min="0" max="20" value="10">
+    <script src="main.js"></script>
+    <script src="../../msas/main.js"></script>
+    <script>
+    let currentColor = { r: 255, g: 255, b: 255 }
+
+    document.getElementById('c-dot').addEventListener('click', () => mixColor(1,0,0))
+    document.getElementById('m-dot').addEventListener('click', () => mixColor(0,1,0))
+    document.getElementById('y-dot').addEventListener('click', () => mixColor(0,0,1))
+    </script>
+</body>
+</html>

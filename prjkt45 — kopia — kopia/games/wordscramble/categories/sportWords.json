@@ -1,0 +1,24 @@
+{
+  "category": "sport",
+  "words": [
+    "piłka", "koszykówka", "siatkówka", "tenis", "pływanie",
+    "bieganie", "rower", "narciarstwo", "piłkarz", "trening",
+    "mecz", "zwycięstwo", "porażka", "drużyna", "sędzia",
+    "hala", "areny", "klub", "łuk", "sportowiec",
+    "skok", "rekord", "tory", "mistrzostwa", "liga",
+    "zmagania", "lyder", "wynik", "trener", "energia",
+    "kask", "korty", "bramka", "gol", "strzelec",
+    "karny", "rzut", "atleta", "maraton", "sprint",
+    "skok w dal", "rzut oszczepem", "sztafeta", "kajakarstwo", "żeglarstwo",
+    "boks", "judo", "zapasy", "gimnastyka", "łyżwiarstwo",
+    "hokej", "badminton", "squash", "golf", "kolarstwo",
+    "triathlon", "unihokej", "kręgle", "bilard", "szermierka",
+    "wioślarstwo", "surfing", "wspinaczka", "biegówki", "saneczkarstwo",
+    "curling", "fitness", "siłownia", "aerobik", "joga",
+    "medal", "podium", "kibic", "transmisja", "komentator",
+    "stadion", "boisko", "tor", "trybuny", "szatnia",
+    "doping", "kontuzja", "rehabilitacja", "rozgrzewka", "statystyki",
+    "spalanie", "wytrzymałość", "szybkość", "zwinność", "siła",
+    "taktyka", "strategia", "rywalizacja", "fair play", "dyscyplina"
+  ]
+}

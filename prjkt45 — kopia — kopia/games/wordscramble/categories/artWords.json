@@ -1,0 +1,58 @@
+{
+  "category": "art",
+  "words": [
+
+    "sztuka", "dzieło sztuki", "twórczość", "wytwór", "arcydzieło",
+    "kunszt", "warsztat", "prezentacja", "wernisaż", "ekspozycja",
+
+
+    "malarstwo", "rzeźba", "grafika", "rysunek", "fotografia",
+    "kolaż", "instalacja", "performance", "sztuka wideo", "sztuka ziemi",
+    "sztuka konceptualna", "sztuka uliczna", "sztuka cyfrowa", "animacja", "fresk",
+    "mural", "mozaika", "witraż", "tkanina artystyczna", "ceramika",
+
+
+    "pędzel", "farba", "płótno", "sztaluga", "paleta",
+    "szpachelka", "węgiel", "ołówek", "pastele", "akwarele",
+    "tempera", "gwasz", "farba olejna", "akryl", "spray",
+    "dłuto", "glina", "marmur", "brąz", "drewno",
+    "papier", "płótno", "płyta", "płytka", "szkło",
+
+    "technika", "perspektywa", "kompozycja", "kontrast", "faktura",
+    "gradient", "szrafowanie", "laserunek", "impast", "alla prima",
+    "sfumato", "chiaroscuro", "pointylizm", "collage", "fotomontaż",
+    "asamblaż", "ready-made", "akcja artystyczna", "happening", "body art",
+
+    "realizm", "impresjonizm", "ekspresjonizm", "abstrakcja", "surrealizm",
+    "kubizm", "fowizm", "futuryzm", "dadaizm", "konstruktywizm",
+    "suprematyzm", "pop-art", "op-art", "minimalizm", "konceptualizm",
+    "postmodernizm", "neoklasycyzm", "romantyzm", "barok", "rokoko",
+     "art deco", "symbolizm",
+
+    "forma", "linia", "kolor", "ton", "walor",
+    "przestrzeń", "głębia", "ruch", "rytm", "harmonia",
+    "dynamika", "statyka", "ekspresja", "emocja", "nastrojowość",
+    "symbolika", "alegoria", "metafora", "ironia", "parodia",
+    "autentyzm", "oryginalność", "interpretacja", "dekonstrukcja", "transgresja",
+
+    "muzeum", "galeria", "pawilon", "biennale", "triennale",
+    "kolekcja", "zbiory", "depozyt", "archiwum", "fundacja",
+    "rezydencja artystyczna", "pracownia", "atelier", "akademia", "uczelnia artystyczna",
+
+    "artysta", "malarz", "rzeźbiarz", "grafik", "fotograf",
+    "krytyk sztuki", "kurator", "kolekcjoner", "mecenas", "patron",
+    "historyk sztuki", "konserwator", "edukator artystyczny", "animator kultury", "marszand",
+
+    "kreacja", "inspiracja", "proces twórczy", "szkic", "studium",
+    "projekt", "koncepcja", "realizacja", "ewolucja", "transformacja",
+    "destrukcja", "rekonstrukcja", "restauracja", "konserwacja", "preserwacja",
+
+    "wartość artystyczna", "kanon", "awangarda", "tradycja", "innowacja",
+    "recenzja", "krytyka", "interpretacja", "analiza", "kontekst",
+    "dyskurs", "narracja", "reprezentacja", "identyfikacja", "recepcja", "OC",
+
+    "ai art", "projekcja",
+    "mapping", "interaktywność", "algorytm", "renderowanie", "piksel", "paint", "paint.net", "png", "jpg",
+    "grafika 3d", "druk 3d", "model 3d", "animacja 3d", "postać 3d", "paint 3d", "okulary 3d", "cyfrowa obróbka", "filtr", "blender", "rgb", "cmyk", "pixel art", "kompozycja cyfrowa"
+  ]
+}

@@ -1,0 +1,40 @@
+        .form-container {
+            max-width: 400px;
+            margin: 2rem auto;
+            padding: 1.5rem;
+            background: var(--complementary5);
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .form-container h2 {
+            text-align: center;
+            margin-bottom: 1rem;
+            color: var(--font-color2);
+        }
+        .form-container input {
+            width: 93%;
+            padding: 0.8rem;
+            margin: 0px 0px 0.5rem;
+            border: 1px solid var(--complementary3);
+            border-radius: 5px;
+        }
+        .form-container button {
+            width: 100%;
+            padding: 0.8rem;
+            background-color: var(--main-color);
+            color: var(--font-color);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        .form-container button:hover {
+            background-color: var(--complementary1);
+        }
+        .toggle-link {
+                display: block;
+                text-align: center;
+            margin-top: 1rem;
+            color: var(--font-color2);
+            cursor: pointer;
+        }

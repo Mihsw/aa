@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="msas/styl4.css">
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <title>Home</title>
+</head>
+<body class="c5body">
+
+    <header class="hheader">
+        <div style="display: flex;align-items: center;">
+            <div class="ico">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <span style="color: var(--complementary5);margin-left: 0.5rem;font-size: 1.25rem;"><a href="about.html" target="_blank" class="menuob">About Us</a></span>
+        </div>
+        <nav style="color: var(--font-color);">
+        <span class="menuob pointspan"><span id="user-points">0 </span> => Total Points</span>
+            <a href="home.html" class="menuob"><i class="fas fa-home icon"></i></a>
+            <a href="resources.html" class="menuob"><i class="fas fa-book icon"></i></a>
+            <a href="settings.html" class="menuob"><i class="fas fa-cog icon"></i></a>
+            <a href="login.html" class="menuob"><i class="fas fa-user icon"></i></a>
+        </nav>
+    </header>
+    <main class="main-content">
+        <h1 class="main-title">Strona główna</h1>
+        <p class="main-description">Tu znajdziesz proste gry edukacyjne</p>
+    </main>
+
+    <section class="grid-container">
+        <div class="grid-item" onclick="changeHref('games/Calculator-game-main/index.html')">Calculator The Game</div>
+        <div class="grid-item" onclick="changeHref('games/Color-game/cmyk.html')">Color Game CMYK</div>
+        <div class="grid-item" onclick="changeHref('games/Color-game/rgb.html')">Color Game RGB</div>
+        <div class="grid-item" onclick="changeHref('games/wordCatch/index.html')">Word Catch</div>
+        <div class="grid-item" onclick="changeHref('games/wordscramble/index.html?category=technology')">Scrabble technology</div>
+        <div class="grid-item" onclick="changeHref('games/wordscramble/index.html?category=naturalSciences')">Scrabble nauki ścisłe</div>
+        <div class="grid-item" onclick="changeHref('games/wordscramble/index.html?category=music')">Scrabble muzyka</div>
+        <div class="grid-item" onclick="changeHref('games/wordscramble/index.html?category=history')">Scrabble historia</div>
+        <div class="grid-item" onclick="changeHref('games/wordscramble/index.html?category=nature')">Scrabble natura</div>
+        <div class="grid-item" onclick="changeHref('games/wordscramble/index.html?category=food')">Scrabble jedzenie</div>
+        <div class="grid-item" onclick="changeHref('games/wordscramble/index.html?category=politics')">Scrabble polityka</div>
+        <div class="grid-item" onclick="changeHref('games/wordscramble/index.html?category=travel')">Scrabble podróże</div>
+        <div class="grid-item" onclick="changeHref('games/wordscramble/index.html?category=technology')">Scrabble technology</div>
+        <div class="grid-item" onclick="changeHref('games/wordscramble/index.html?category=naturalSciences')">Scrabble nauki ścisłe</div>
+        <div class="grid-item" onclick="changeHref('games/wordscramble/index.html?category=music')">Scrabble muzyka</div>
+        <div class="grid-item" onclick="changeHref('games/wordscramble/index.html?category=history')">Scrabble historia</div>
+        <div class="grid-item" onclick="changeHref('games/wordscramble/index.html?category=nature')">Scrabble natura</div>
+        <div class="grid-item" onclick="changeHref('games/wordscramble/index.html?category=food')">Scrabble jedzenie</div>
+        <div class="grid-item" onclick="changeHref('games/wordscramble/index.html?category=politics')">Scrabble polityka</div>
+        <div class="grid-item" onclick="changeHref('games/wordscramble/index.html?category=travel')">Scrabble podróże</div>
+        <div class="grid-item" onclick="changeHref('games/wordscramble/index.html?category=food')">Scrabble jedzenie</div>
+        <div class="grid-item" onclick="changeHref('games/wordscramble/index.html?category=politics')">Scrabble polityka</div>
+        <div class="grid-item" onclick="changeHref('games/wordscramble/index.html?category=travel')">Scrabble podróże</div>
+
+    </section>
+
+
+<footer>
+    <span>&copy; 2025 EduGames | <a href="about.html">O nas</a> | <a href="resources.html">Materiały edukacyjne</a> | <a href="mailto:our.e-mail@edu.eu">our.e-mail@edu.eu</a> | <a href="tel:+48126662137">+48 126 662 137</a></span>
+</footer>
+
+<script src="msas/main.js"></script>
+<script>
+    function changeHref(x) {
+        window.location.href = x
+    }
+</script>
+</body>
+</html>

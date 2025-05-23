@@ -1,0 +1,11 @@
+:root{
+    --main-color:              #000;
+    --complementary1:          #1a1a1a;  /*zamienić main color z complementary1*/
+    --complementary2:          #303030;
+    --complementary3:          #3d3d3d;
+    --complementary4:          #5f5f5f;
+    --complementary5:          #686868;
+    --font-color:#ffffffac;
+    --font-color2: #000000;
+    --selection-color: #ff70ff;
+    }

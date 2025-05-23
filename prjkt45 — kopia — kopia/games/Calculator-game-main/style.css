@@ -1,0 +1,158 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: azure;
+    user-select:none;
+}
+
+/*header {
+    background-color: rgb(37, 203, 237);
+    height: 6.5vi;
+    width: 120%;
+    margin: -20px -10px 0px -10px;
+}*/
+
+.htext1 {
+    position: absolute;
+    left: 3vi;
+    top: 0.3vi;
+    font-size: 1.5vi;
+}
+
+.htext {
+    position: absolute;
+    top: 0.5vi;
+    font-size: 1.4vi;
+}
+
+.a1 {
+    right: 15vi;
+}
+
+.a2 {
+    right: 9vi;
+}
+
+.a3 {
+    right: 5vi;
+}
+
+.a4 {
+    text-decoration: none;
+    color: black;
+}
+
+.game{
+position: fixed;
+left: 31vi;
+top: 12vi;
+height: 29vi;
+width: 36vi;
+background-color: rgb(220, 220, 220);
+border: 2vi groove black;
+border-radius: 2vi;
+}
+
+.screen{
+    position: absolute;
+    left: 1vi;
+    top: 1vi;
+    height: 7vi;
+    width: 34vi;
+    background-color: rgb(211, 244, 233);
+}
+
+#qsc{
+    position: absolute;
+    left: 0.5vi;
+    top: 10%;
+    font-size: 2vi;
+}
+
+#usc{
+    position: absolute;
+    right: 0.5vi;
+    top: 10%;
+    font-size: 2vi;
+}
+
+.button{
+    position: absolute;
+    height: 5vi;
+    width: 5vi;
+    background-color: rgb(165, 171, 169);
+    border: 0.4vi solid gray;
+    border-radius: 0.2vi;
+    box-shadow: 0.25vi 0.15vi grey;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.5vi;
+}
+
+.button:active {
+    background-color: rgb(145, 149, 148);
+    box-shadow: 0vi 0vi rgb(85, 85, 85);
+    transform: translateY(0.15vi);
+    transform: translateX(0.25vi);
+}
+
+.ba{
+    left: 1vi;
+}
+
+.bb{
+    left: 7vi;
+}
+
+.bc{
+    left: 13vi;
+}
+
+.b1{
+    top: 10vi;
+}
+
+.b2{
+    top: 16vi;
+}
+.b3{
+    top: 22vi;
+}
+
+.b4{
+    top: 22vi;
+}
+
+.b0{
+    left: 19vi;
+    top: 22vi;
+}
+
+.beq{
+    left: 25vi;
+    top: 22vi;
+    width: 10vi;
+}
+
+.baleq{
+    left: 25vi;
+    top: 16vi;
+    width: 10vi;
+}
+
+.bpm{
+    left: 19vi;
+    top: 16vi;
+    width: 5vi;
+}
+
+.bdel{
+    left: 25vi;
+    top: 10vi;
+    width: 10vi;
+}
+
+.bdels{
+    left: 19vi;
+    top: 10vi;
+    width: 5vi;
+}

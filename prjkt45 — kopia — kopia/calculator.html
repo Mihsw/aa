@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="msas/styl4.css">
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="msas/calculator.css">
+</head>
+<body class="c5body">
+
+    <header class="hheader">
+        <div style="display: flex;align-items: center;">
+            <div class="ico">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <span style="color: var(--complementary5);margin-left: 0.5rem;font-size: 1.25rem;"><a href="about.html" class="menuob">About Us</a></span>
+        </div>
+        <nav style="color: var(--font-color);">
+        <span class="menuob pointspan"><span id="user-points">0 </span> => Total Points</span>
+            <a href="home.html" class="menuob"><i class="fas fa-home icon"></i></a>
+            <a href="resources.html" class="menuob"><i class="fas fa-book icon"></i></a>
+            <a href="settings.html" class="menuob"><i class="fas fa-cog icon"></i></a>
+            <a href="login.html" class="menuob"><i class="fas fa-user icon"></i></a>
+        </nav>
+    </header>
+
+    <div class="calc-container">
+        <form id="calcForm">
+            <input type="number" id="num1" placeholder="Wpisz pierwszą liczbę" required>
+            <select id="symbol">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <input type="number" id="num2" placeholder="Wpisz drugą liczbę" required>
+            <input type="submit" value="Oblicz" class="calcbutton">
+        </form>
+        <p id="result"></p>
+    </div>
+
+    <section>
+        <button onclick="back()" class="backbutton">Back/Home</button>
+    </section>
+
+    <footer style="position:absolute;bottom: -0%;">
+        <span>&copy; 2025 EduGames | <a href="about.html">O nas</a> | <a href="resources.html">Materiały edukacyjne</a> | <a href="mailto:our.e-mail@edu.eu">our.e-mail@edu.eu</a> | <a href="tel:+48126662137">+48 126 662 137</a></span>
+    </footer>
+
+    <script src="msas/calculator.js"></script>
+    <script src="msas/main.js"></script>
+    <script>
+        function changeHref(x) {
+            window.location.href = x
+        }
+    </script>
+</body>
+</html>

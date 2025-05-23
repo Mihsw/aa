@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Word Scramble</title>
+  <link rel="stylesheet" href="../../msas/styl4.css">
+  <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+</head>
+<body>
+  <header class="hheader">
+    <div style="display: flex;align-items: center;">
+        <div class="ico">
+            <img src="images/logo.png" alt="logo">
+        </div>
+        <span style="color: var(--complementary5);margin-left: 0.5rem;font-size: 1.25rem;"><a href="../../about.html" class="menuob">About Us</a></span>
+    </div>
+    <nav style="color: var(--font-color);">
+    <span class="menuob pointspan"><span id="user-points">0 </span> => Total Points</span>
+        <a href="../../home.html" class="menuob"><i class="fas fa-home icon"></i></a>
+        <a href="../../resources.html" class="menuob"><i class="fas fa-book icon"></i></a>
+        <a href="../../settings.html" class="menuob"><i class="fas fa-cog icon"></i></a>
+        <a href="../../login.html" class="menuob"><i class="fas fa-user icon"></i></a>
+      </nav>
+</header>
+
+  <div class="containerscr">
+    <h1>Word Scramble Game</h1>
+    <div id="game"></div>
+    <p id="scrambled-word" class="scrambled-word"></p>
+    <input type="text" id="guess-input" placeholder="Zgadnij słowo" autofocus>
+    <button id="check-btn">Sprawdź odpowiedź</button>
+    <p id="message"></p>
+    <button id="reset-btn" class="hidden">Nowe słowo</button>
+  </div>
+  <script src="script.js"></script>
+  <script src="..\..\msas\main.js"></script>
+</body>
+</html>

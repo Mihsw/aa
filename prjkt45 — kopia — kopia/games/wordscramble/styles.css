@@ -1,0 +1,81 @@
+body {
+    background: var(--complementary5);
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  header{
+    position: absolute;
+    top: 0px;
+  }
+  .containerscr {
+    text-align: center;
+    background: var(--complementary4);
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: auto;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .scrambled-word {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+    border: 1px solid var(--complementary1);
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: var(--complementary1);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+
+
+input:focus-visible{
+    outline: none !important;
+    border:1px solid var(--main-color);
+    box-shadow: 0 0 10px var(--main-color);
+    background-color: var(--main-color);
+  }
+
+
+  
+  button:hover {
+    background-color: var(--main-color);
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #message {
+    font-size: 1.2rem;
+    margin-top: 15px;
+  }
+
+  #game {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #333;
+  }

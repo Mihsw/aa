@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Cookies</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+</head>
+<body>
+    <h1>User Cookies</h1>
+    <div id="cookies"></div>
+    <button id="download-cookies">Download Cookies as JSON</button>
+    <input type="file" id="upload-json" accept="application/json">
+    <button id="upload-cookies">Upload JSON to Set Cookies</button>
+
+    <script>
+
+        function displayCookies() {
+            const cookies = document.cookie;
+            const cookiesDiv = document.getElementById('cookies');
+            if (cookies) {
+                const cookieArray = cookies.split('; ').map(cookie => {
+                    const [name, value] = cookie.split('=');
+                    return `${decodeURIComponent(name)}: ${decodeURIComponent(value)}`;
+                });
+                cookiesDiv.textContent = `Cookies:\n${cookieArray.join('\n')}`;
+            } else {
+                cookiesDiv.textContent = 'No cookies found.';
+            }
+        }
+
+
+        function downloadCookiesAsJSON() {
+            const cookies = document.cookie;
+            if (cookies) {
+                const cookieObject = {};
+                cookies.split('; ').forEach(cookie => {
+                    const [name, value] = cookie.split('=');
+                    cookieObject[decodeURIComponent(name)] = decodeURIComponent(value);
+                });
+
+                const jsonString = JSON.stringify(cookieObject, null, 2);
+                const blob = new Blob([jsonString], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'cookies.json';
+                a.click();
+
+                URL.revokeObjectURL(url);
+            } else {
+                alert('No cookies found to download.');
+            }
+        }
+
+
+        function uploadCookiesFromJSON() {
+            const fileInput = document.getElementById('upload-json');
+            const file = fileInput.files[0];
+
+            if (!file) {
+                alert('Please select a JSON file.');
+                return;
+            }
+
+            const reader = new FileReader();
+            reader.onload = function (event) {
+                try {
+                    const cookieObject = JSON.parse(event.target.result);
+
+
+                    document.cookie.split('; ').forEach(cookie => {
+                        const name = cookie.split('=')[0];
+                        document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
+                    });
+
+
+                    for (const [name, value] of Object.entries(cookieObject)) {
+                        document.cookie = `${encodeURIComponent(name)}=${encodeURIComponent(value)}; path=/;`;
+                    }
+
+                    alert('Cookies have been updated.');
+                    displayCookies();
+                } catch (error) {
+                    alert('Invalid JSON file.');
+                }
+            };
+
+            reader.readAsText(file);
+        }
+
+
+        document.getElementById('download-cookies').addEventListener('click', downloadCookiesAsJSON);
+        document.getElementById('upload-cookies').addEventListener('click', uploadCookiesFromJSON);
+
+
+        displayCookies();
+    </script>
+</body>
+</html>

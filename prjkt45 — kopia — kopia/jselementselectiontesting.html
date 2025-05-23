@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="msas/styl4.css">
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <title>Home</title>
+    <style>
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+        }
+    </style>
+</head>
+<body class="c5body">
+
+    <header class="hheader">
+        <div style="display: flex;align-items: center;">
+            <div class="ico">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <span style="color: var(--complementary5);margin-left: 0.5rem;font-size: 1.25rem;"><a href="about.html" class="menuob">About Us</a></span>
+        </div>
+        <nav style="color: var(--font-color);">
+        <span class="menuob pointspan"><span id="user-points">0 </span> => Total Points</span>
+            <a href="home.html" class="menuob"><i class="fas fa-home icon"></i></a>
+            <a href="resources.html" class="menuob"><i class="fas fa-book icon"></i></a>
+            <a href="settings.html" class="menuob"><i class="fas fa-cog icon"></i></a>
+            <a href="login.html" class="menuob"><i class="fas fa-user icon"></i></a>
+        </nav>
+    </header>
+    <main class="main-content">
+        <h1 class="main-title"></h1>
+        <p class="main-description"></p>
+    </main>
+
+    <section>
+        <div style="width: 100px; height: 100px; background-color: green; border: 2px solid black;"></div>
+    </section>
+    <div style="text-align: center; margin: 2rem 0;">
+        <button id="btn-id">getElementById</button>
+        <button id="btn-class">getElementsByClassName</button>
+        <button id="btn-tag">getElementsByTagName</button>
+        <button id="btn-query">querySelector</button>
+        <button id="btn-queryAll">querySelectorAll</button>
+        <button id="btn-reconstruct">Reconstruct Div</button>
+
+    </div>
+
+    <footer>
+        <span>&copy; 2025 EduGames | <a href="about.html">O nas</a> | <a href="resources.html">Materiały edukacyjne</a> | <a href="mailto:our.e-mail@edu.eu">our.e-mail@edu.eu</a> | <a href="tel:+48126662137">+48 126 662 137</a></span>
+    </footer>
+
+
+    <script>
+            document.getElementById("btn-reconstruct").addEventListener("click", function() {
+                let target = document.getElementById("targetDiv")
+                if (!target) {
+                    target = document.createElement("div")
+                    target.style.width = "100px"
+                    target.style.height = "100px"
+                    target.style.backgroundColor = "green"
+                    target.style.border = "2px solid black"
+                    target.id = "targetDiv"
+                    target.classList.add("test-div")
+                    document.querySelector("section").appendChild(target)
+                    console.log("Target div has been reconstructed.")
+                } else {
+                    console.log("Target div already exists.")
+                }
+            })
+
+        const targetDiv = document.querySelector("section div")
+        targetDiv.id = "targetDiv"
+        targetDiv.classList.add("test-div")
+
+        document.getElementById("btn-id").addEventListener("click", function() {
+            const el = document.getElementById("targetDiv")
+            console.log("getElementById:", el)
+            changeStyle()
+        })
+
+        document.getElementById("btn-class").addEventListener("click", function() {
+            const el = document.getElementsByClassName("test-div")[0]
+            console.log("getElementsByClassName:", el)
+            changeStyle()
+        })
+
+        document.getElementById("btn-tag").addEventListener("click", function() {
+
+            const divs = document.getElementsByTagName("div")
+            let el
+            for (let i = 0; i < divs.length; i++) {
+                if (divs[i].closest("section")) {
+                    el = divs[i]
+                    break
+                }
+            }
+            console.log("getElementsByTagName:", el)
+            changeStyle()
+        })
+
+        document.getElementById("btn-query").addEventListener("click", function() {
+            const el = document.querySelector("section div")
+            console.log("querySelector:", el)
+            changeStyle()
+        })
+
+        document.getElementById("btn-queryAll").addEventListener("click", function() {
+            const els = document.querySelectorAll("section div")
+            const el = els[0];
+            console.log("querySelectorAll:", el)
+            changeStyle()
+        })
+
+        function getRandomColor() {
+            const letters = "0123456789ABCDEF"
+            let color = "#"
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)]
+            }
+            return color
+        }
+        document.addEventListener("mousemove", function(event) {
+            document.getElementById("targetDiv").style.borderColor = getRandomColor()
+        })
+        function changeStyle() {
+            const el = document.getElementById("targetDiv")
+            if (el) {
+                el.style.backgroundColor = getRandomColor()
+
+                el.style.borderRadius = Math.floor(Math.random() * 50) + "px"
+                el.style.borderWidth = Math.floor(Math.random() * 7) + "px"
+            }
+        }
+
+        setTimeout(() => {
+            const target = document.getElementById("targetDiv")
+            if (target) {
+                target.remove()
+                console.log("Target div has been removed after 20 seconds.")
+            }
+        }, 20000)
+    </script>
+<script src="msas/main.js"></script>
+
+</body>
+</html>

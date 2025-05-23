@@ -1,0 +1,37 @@
+{
+    "category": "politics",
+    "words": [
+"monarchia", "republika", "demokracja", "tyrania", "dyktatura",
+"oligarchia", "feudalizm", "komunizm", "socjalizm", "kapitalizm",
+"absolutyzm", "autorytaryzm", "totalitaryzm", "anarchia", "teokracja",
+"cesarstwo", "królestwo", "księstwo", "sułtanat", "imperium",
+"kapitalizm", "socjalizm", "komunizm", "liberalizm", "konserwatyzm",
+"feminizm", "globalizm", "internacjonalizm", "ekologizm", "antykapitalizm",
+
+"arystokracja", "szlachta", "mieszczaństwo", "chłopstwo", "plebs",
+"niewolnictwo", "stan społeczny", "kasta", "klasa", "elita",
+"inteligencja", "proletariat", "burżuazja", "dworzanin", "wasal",
+"lenno", "pańszczyzna", "cech", "gildia", "kongregacja",
+
+"propaganda", "ideologia", "nacjonalizm",
+    "kolonializm", "dekolonizacja", "globalizacja", "modernizacja", "sekularyzacja",
+"armia", "flota", "wojsko", 
+
+"handel", "szlak handlowy", "wymiana", "pieniądz", "bank",
+    "cła", "podatek", "danina", "gospodarka", "rolnictwo",
+    "rzemiosło", "manufaktura", "fabryka", "industrializacja", "kryzys",
+    "głód", "epidemia", "pandemia", "migracja", "emigracja",
+
+    "prawo", "konstytucja", "kodeks", "przywilej", "statut",
+    "sąd", "tribunał", "inkwizycja", "egzekucja", "amnestia",
+    "niewola", "wyzwolenie", "emancypacja", "prawa człowieka", "manifest",
+    "deklaracja", "konwencja", "ratyfikacja", "dyplomacja", "misja pokojowa",
+
+    "wojna", "bitwa", "pokój", "rewolucja", "powstanie",
+    "bunt", "zamach stanu", "traktat", "sojusz", "konferencja",
+    "zjazd", "zawieszenie broni", "kapitulacja", "okupacja", "wyzwolenie",
+    "migracja", "wędrówka ludów", "wyprawa krzyżowa", "rekonkwista",
+    "reforma", "kontrreformacja", "wojna secesyjna", "wojna światowa"
+    ]
+  }
+  

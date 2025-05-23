@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator the game</title>
+    <link rel="stylesheet" href="../../msas/styl4.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+</head>
+<body>
+    <header class="hheader">
+        <div style="display: flex;align-items: center;">
+            <div class="ico">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <span style="color: var(--complementary5);margin-left: 0.5rem;font-size: 1.25rem;"><a href="../../about.html" class="menuob">About Us</a></span>
+        </div>
+        <nav style="color: var(--font-color);">
+        <span class="menuob pointspan"><span id="user-points">0 </span> => Total Points</span>
+            <a href="../../home.html" class="menuob"><i class="fas fa-home icon"></i></a>
+            <a href="../../resources.html" class="menuob"><i class="fas fa-book icon"></i></a>
+            <a href="../../settings.html" class="menuob"><i class="fas fa-cog icon"></i></a>
+            <a href="../../login.html" class="menuob"><i class="fas fa-user icon"></i></a>
+        </nav>
+    </header>
+<section class="game">
+<div class="screen">
+<p id="qsc">2+2</p>
+<p id="usc">0</p>
+</div>
+<button class="button ba b1" onclick="add(1)">1</button>
+<button class="button bb b1" onclick="add(2)">2</button>
+<button class="button bc b1" onclick="add(3)">3</button>
+<button class="button ba b2" onclick="add(4)">4</button>
+<button class="button bb b2" onclick="add(5)">5</button>
+<button class="button bc b2" onclick="add(6)">6</button>
+<button class="button ba b3" onclick="add(7)">7</button>
+<button class="button bb b3" onclick="add(8)">8</button>
+<button class="button bc b3" onclick="add(9)">9</button>
+<button class="button b0" onclick="add(0)">0</button>
+<button class="button bpm" onclick="m()">&plusmn;</button>
+<button class="button bdel" onclick="del()">&larr;</button>
+<button class="button bdels" onclick="del2()">&rarr;</button>
+<button class="button baleq" onclick="quess(1)">&asymp;</button>
+<button class="button beq" onclick="quess(0)">=</button>
+</section>
+<script src="main.js"></script>
+<script src="../../msas/main.js"></script>
+</body>
+</html>

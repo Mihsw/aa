@@ -1,0 +1,114 @@
+    body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--complementary5);
+            color: var(--font-color);
+        }
+
+    header {
+            background: var(--complementary1);
+            color: var(--font-color);
+            padding: 1rem 0;
+            text-align: center;
+    }
+
+    .container{
+            background: var(--complementary4);
+    }
+
+    h2, p, a {
+            color: var(--font-color2);
+    }
+
+    #thumbnails img {
+        border: 2px solid transparent;
+        opacity: 0.6;
+        transition: opacity 0.3s ease, border-color 0.3s ease;
+    }
+
+    .newsletter {
+        margin: 2rem auto;
+        max-width: 500px;
+        background: var(--complementary4);
+        border-radius: 10px;
+        padding: 1rem;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+    }
+    .newsletter h2 {
+        text-align: center;
+        color: var(--font-color2);
+        margin-bottom: 1rem;
+    }
+    .newsletter form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .newsletter input[type="email"] {
+        padding: 0.5rem;
+        width: 80%;
+        border: 1px solid var(--complementary2);
+        border-radius: 5px;
+        margin-bottom: 0.5rem;
+    }
+    .newsletter button[type="submit"] {
+        padding: 0.5rem 1rem;
+        background: var(--main-color);
+        color: var(--font-color);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .newsletter p {
+        text-align: center;
+        color: var(--font-color2);
+        margin-top: 0.5rem;
+    }
+
+    .slider-container {
+                width: 80%;
+                margin: 2rem auto;
+                text-align: center;
+    }
+    .slider {
+                position: relative;
+                width: 100%;
+                height: 400px;
+                overflow: hidden;
+                border-radius: 8px;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .slide {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: none;
+    }
+    .slide.active {
+                display: block;
+        }
+        .thumbnails {
+                margin-top: 10px;
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+            }
+        .st {
+                width: 60px;
+                height: 60px;
+                object-fit: cover;
+                opacity: 0.6;
+                cursor: pointer;
+                border: 2px solid transparent;
+                border-radius: 4px;
+                transition: opacity 0.3s, border-color 0.3s;
+            }
+        .st.active, .st:hover {
+                opacity: 1;
+                border-color: var(--main-color);
+            }

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="msas/styl4.css">
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <link rel="stylesheet" href="msas/about.css">
+</head>
+<body>
+    <header>
+        <h1>O nas</h1>
+    </header>
+    <section class="container">
+        <h2>Kim Jesteśmy</h2>
+        <p>Witamy na naszej stronie! Jesteśmy zespołem pasjonatów, którzy tworzą edukacyjne mini gry, aby nauka była przyjemna i angażująca. Naszym celem jest wspieranie rozwoju i kreatywności poprzez interaktywne doświadczenia.</p>
+
+        <h2>Nasza Misja</h2>
+        <p>Naszą misją jest dostarczanie wartościowych i innowacyjnych narzędzi edukacyjnych, które inspirują do nauki i rozwijania umiejętności. Chcemy, aby nauka była dostępna i atrakcyjna dla każdego.</p>
+
+        <h2>Skontaktuj się z Nami</h2>
+        <p>Masz pytania lub chcesz dowiedzieć się więcej o naszych grach? Skontaktuj się z nami! Chętnie odpowiemy na Twoje pytania i wysłuchamy Twoich opinii.</p>
+        <a href="tel:+48126662137">+48 126 662 137</a>
+        <br>
+        <a href="mailto:our.e-mail@edu.eu">our.e-mail@edu.eu</a>
+
+        <div class="slider-container">
+            <div class="slider">
+                <img src="images/img1.png" alt="Slide 1" class="slide active">
+                <img src="images/img2.jpg" alt="Slide 2" class="slide">
+                <img src="images/img3.jpg" alt="Slide 3" class="slide">
+                <img src="images/img4.jpg" alt="Slide 4" class="slide">
+            </div>
+            <div class="thumbnails">
+                <img src="images/img1.png" alt="Thumb 1" class="st active" onclick="setSlide(0)">
+                <img src="images/img2.jpg" alt="Thumb 2" class="st" onclick="setSlide(1)">
+                <img src="images/img3.jpg" alt="Thumb 3" class="st" onclick="setSlide(2)">
+                <img src="images/img4.jpg" alt="Thumb 3" class="st" onclick="setSlide(3)">
+            </div>
+        </div>
+
+
+
+
+        <div style="margin-top:2rem;">
+            <h3 style="color:var(--font-color2);">Inne polecane strony do nauki:</h3>
+            <ul style="background:var(--complementary5);border-radius:8px;padding:1rem;list-style:square;">
+                <li><a href="https://www.khanacademy.org/" target="_blank" style="color:var(--main-color);">Khan Academy – interaktywne kursy matematyki, nauk ścisłych i programowania</a></li>
+                <li><a href="https://pl.duolingo.com/" target="_blank" style="color:var(--main-color);">Duolingo – nauka języków obcych przez zabawę</a></li>
+                <li><a href="https://www.coursera.org/" target="_blank" style="color:var(--main-color);">Coursera – kursy online z różnych dziedzin</a></li>
+                <li><a href="https://www.edx.org/" target="_blank" style="color:var(--main-color);">edX – kursy uniwersyteckie online</a></li>
+                <li><a href="https://www.youtube.com/user/edutubers" target="_blank" style="color:var(--main-color);">YouTube EduTubers – edukacyjne kanały wideo</a></li>
+            </ul>
+        </div>
+    </section>
+
+
+
+    <section class="newsletter">
+        <h2>Newsletter</h2>
+        <form id="newsletterForm">
+            <input type="email" id="newsletterEmail" placeholder="Enter your email" required>
+            <button type="submit">
+                Subscribe
+            </button>
+        </form>
+        <p id="newsletterMessage"></p>
+    </section>
+    </section>
+
+    <section onclick="back()" class="backbutton">
+        Back/Home
+    </section>
+
+    <footer>
+        <span>&copy; 2025 EduGames | <a href="about.html">O nas</a> | <a href="resources.html">Materiały edukacyjne</a> | <a href="mailto:our.e-mail@edu.eu">our.e-mail@edu.eu</a> | <a href="tel:+48126662137">+48 126 662 137</a></span>
+    </footer>
+
+<script src="msas/main.js"></script>
+<script src="msas/about.js"></script>
+    </body>
+</html>

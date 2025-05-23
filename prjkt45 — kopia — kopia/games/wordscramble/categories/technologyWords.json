@@ -1,0 +1,27 @@
+{
+    "category": "technology",
+    "words": [
+      "komputer", "smartfon", "internet", "aplikacja", "oprogramowanie",
+      "sprzęt", "sieć", "laptop", "tablet", "serwer",
+      "algorytm", "kodowanie", "programowanie", "sztuczna inteligencja", "baza danych",
+      "chmura", "robot", "cyfrowy", "system", "bezpieczeństwo",
+      "hack", "debug", "programista", "technologia", "inżynieria",
+      "elektronika", "automatyka", "systematyka", "hardware", "software",
+      "interfejs", "dysk", "pamięć RAM", "procesor", "karta graficzna",
+      "router", "modem", "firewall", "szyfrowanie", "blockchain",
+      "bitcoin", "kryptowaluta", "Internet rzeczy", "big data", "machine learning", "deep learning", "rozszerzona rzeczywistość", "wirtualna rzeczywistość", "metaverse",
+      "cybersecurity", "phishing", "malware", "ransomware", "backup",
+      "hosting", "domena", "API", "framework", "biblioteka",
+      "frontend", "backend", "fullstack", "UI desing", "responsive design",
+      "debugging", "kompilator", "skrypt", "open source", "Linux",
+      "Windows", "macOS", "Android", "iOS", "cloud computing",
+      "edge computing", "quantum computing", "nanotechnologia", "druk 3d", "automatyzacja",
+      "chatbot", "voice assistant", "wearables", "smartwatch", "smart home",
+      "dron", "autonomiczny samochód", "biometria", "facial recognition", "sztuczna sieć neuronowa",
+      "data science", "analiza danych", "scalability", "microservices", "DevOps",
+      "containerization", "docker", "Kubernetes", "agile",
+      "branża it", "debug log",
+      "cache", "vpn", "proxy", "git",
+      "github", "gitlab", "version control", "merge conflict", "pull request"
+    ]
+}

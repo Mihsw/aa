@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+.hheader{
+    position: absolute;
+    top: 0px;
+    background-color: var(--complementary3);
+}
+#color-mixer {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.color-dot {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+#c-dot { background-color: cyan; }
+#m-dot { background-color: magenta; }
+#y-dot { background-color: yellow; }
+#r-dot { background-color: red; }
+#g-dot { background-color: rgb(0, 255, 0); }
+#b-dot { background-color: blue; }
+#reset-dot { background-color: white; }
+
+.slider {
+    width: 200px;
+    margin: 10px;
+}
+
+div{
+    user-select: none;
+}
